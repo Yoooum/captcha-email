@@ -1,0 +1,16 @@
+spring:
+  mail:
+    protocol: smtp
+    host: outlook.office365.com
+    port: 587
+    username: email@demo.com
+    password: password
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          ssl:
+            trust: outlook.office365.com
